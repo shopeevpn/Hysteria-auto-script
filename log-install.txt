@@ -1,0 +1,69 @@
+   >>> Service & Port
+   - OpenSSH                 : 22
+   - OpenVPN                 : TCP 1194 UDP 2200 SSL 442
+   - OHP-OVPN                : 6767
+   - OHP-SSH                 : 6868
+   - OHP-DropBear            : 6969
+   - WebSocket Dbear         : 8880
+   - WebSocket SSH           : 8780
+   - WebSocket OVPN          : 8680
+   - WebSocket TLS           : 8580
+   - Stunnel4                : 444 777
+   - Dropbear                : 109 143
+   - Squid Proxy             : 3128 8000 8080
+   - Badvpn                  : 7100 7200 7300
+   - Nginx                   : 81 82
+   - Wireguard               : 7070
+   - Shadowsocks-R           : 1443-1543
+   - SS-OBFS TLS             : 2443-2543
+   - SS-OBFS HTTP            : 3443-3543
+   ----- HYSTERIA -----------   
+   - HYSTERIA CORE           : 4000
+   ----- XRAY CORE ----------
+   - XRAY VLESS XTLS SPLICE  : 443
+   - XRAY VLESS XTLS DIRECT  : 443
+   - XRAY VLESS WS TLS       : 443
+   - XRAY TROJAN TCP         : 443
+   - XRAY TROJAN GRPC TCP    : 443
+   - XRAY VMESS TLS          : 443
+   - XRAY VLESS GRPC         : 6643
+   - XRAY VLESS H2           : 100
+   - XRAY VLESS MKCP         : 7443
+   - XRAY VLESS MKCP TLS     : 743
+   - XRAY TROJAN GRPC TLS    : 653
+   - XRAY TROJAN XTLS/TLS    : 6443
+   - XRAY VMESS HTTP TLS     : 643
+   - XRAY VMESS HTTP         : 80
+   - XRAY VMESS TCP TLS      : 535
+   - XRAY VLESS WS NONE      : 88
+   - XRAY VMESS WS NONE      : 888
+   - XRAY Shadowsocks AEAD   : 1111
+   ----- V2RAY CORE ----------
+   - V2RAY VLESS TLS SPLICE  : 8443
+   - V2RAY VLESS TLS DIRECT  : 8443
+   - V2RAY VLESS WS TLS      : 8443
+   - V2RAY TROJAN TLS        : 8443
+   - V2RAY VMESS TLS         : 8443
+   - V2RAY VLESS GRPC        : 880
+   - V2RAY VLESS WS NONE     : 8181
+   - V2RAY VMESS WS NONE     : 8888
+   ----- Trojan-GFW ----------
+   - Trojan-GFW              : 2087
+
+   >>> Server Information & Other Features
+   - Timezone                 : Asia/Kuala_Lumpur (GMT +8)
+   - Fail2Ban                 : [ON]
+   - DDOS Dflate              : [ON]
+   - IPtables                 : [ON]
+   - Auto-Reboot              : [OFF]
+   - IPv6                     : [OFF]
+   - Auto-Remove-Expired      : [ON]
+   - Autobackup Data                
+   - AutoKill Multi Login User       
+   - Auto Delete Expired Account     
+   - Fully automatic script          
+   - VPS settings                    
+   - Admin Control                   
+   - Change port                     
+   - Restore Data                    
+   - Full Orders For Various Services   
